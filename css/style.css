@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+:root {
+    --grayColor: #ccdad1;
+    --darkBlue: #0e0e55;
+}
+
+header {
+    background-color: var(--darkBlue);
+    padding: 60px 0;
+    text-align: center;
+}
+
+.app-title {
+    font-size: 45px;
+    background-color: var(--grayColor);
+    color: var(--darkBlue);
+    padding: 3px 10px;
+    display: inline-block;
+    border-radius: 5px ;
+    box-shadow: 6px 5px 3px #000;
+}
+
+.content {
+    padding: 30px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    width: 30%;
+}
+
+.right{
+    width: 68%;
+}
+
+.card {
+    border: 1px solid  var(--darkBlue);
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    background-color: var(--darkBlue);
+    color: #fff;
+    padding: 15px;
+    border-radius: 3px;
+}
+
+form {padding: 15px;}
+
+label {
+    font-size: 16px;
+    display: block;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 7px 0;
+    font-size: 16px;
+    border: 1px solid var(--darkBlue);
+    outline: 0;
+    border-radius: 3px;
+}
+
+.languages {
+    padding: 10px;
+}
+
+.btn-el {
+    width: 100%;
+    display: block;
+    margin: 5px 0;
+    background-color: #000;
+    color: #fff;
+    padding: 7px 0;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.repo-item {
+    background-color: var(--darkBlue);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 7px 0;
+}
+
+.repo-item:hover {
+    background-color: #000;
+}
